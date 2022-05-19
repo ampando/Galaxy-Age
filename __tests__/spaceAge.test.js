@@ -45,5 +45,5 @@ test('should calculate userLifeExpectancy on selected planet', () => {
 
   test('should calculate how many years of life left on a selected planet', () => {
     const mercuryYearsLeft = new SpaceAge (42, 100, .24);
-    expect(mercuryYearsLeft.calculateYearsLeft()).toEqual(211)
+    expect(mercuryYearsLeft.calculateYearsLeft()).toEqual(242)
   }) 
