@@ -4,4 +4,7 @@ export class SpaceAge {
   this.userLifeExpectancy = userLifeExpectancy;
   this.planetYearsInEarthYears = planetYearsInEarthYears;
   }
+calculateAge() {
+  return parseInt((this.userAge / this.planetYearsInEarthYears).toFixed());
+}
 }
