@@ -30,3 +30,15 @@ describe('SpaceAge class', () => {
     const mercuryLifeExpectancy = new SpaceAge (42, 100, .24);
     expect(mercuryLifeExpectancy.calculateExpectancy()).toEqual(417);
 })
+/*test('should calculate userLifeExpectancy on selected planet', () => {
+    const venusLifeExpectancy = new SpaceAge (42, 100, .62);
+    expect(venusLifeExpectancy.calculateExpectancy()).toEqual(161);
+})
+  test('should calculate userLifeExpectancy on selected planet', () => {
+    const marsLifeExpectancy = new SpaceAge (42, 100, 1.88);
+    expect(marsLifeExpectancy.calculateExpectancy()).toEqual(53);
+})
+  test('should calculate userLifeExpectancy on selected planet', () => {
+    const jupiterLifeExpectancy = new SpaceAge (42, 100, 11.86);
+    expect(jupiterLifeExpectancy.calculateExpectancy()).toEqual(8);
+})*/
