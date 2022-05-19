@@ -1,7 +1,7 @@
-export default class Rectangle {
+export class SpaceAge {
   constructor() {
+  this.userAge = userAge;
+  this.userLifeExpectancy = userLifeExpectancy;
+  this.planetYearsInEarthYears = planetYearsInEarthYears;
   }
-getArea() {
-  return this.side1 * this.side2;
-}
 }
