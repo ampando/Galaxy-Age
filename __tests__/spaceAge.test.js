@@ -28,5 +28,5 @@ describe('SpaceAge class', () => {
 
   test('should calculate userLifeExpectancy on selected planet', () => {
     const mercuryLifeExpectancy = new SpaceAge (42, 100, .24);
-    expect(mercuryLifeExpectancy.calculateExpectancy()).toEqual(17);
+    expect(mercuryLifeExpectancy.calculateExpectancy()).toEqual(417);
 })
