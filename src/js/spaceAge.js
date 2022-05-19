@@ -1,5 +1,5 @@
 export class SpaceAge {
-  constructor() {
+  constructor(userAge, userLifeExpectancy, planetYearsInEarthYears) {
   this.userAge = userAge;
   this.userLifeExpectancy = userLifeExpectancy;
   this.planetYearsInEarthYears = planetYearsInEarthYears;
