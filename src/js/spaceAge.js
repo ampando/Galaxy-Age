@@ -16,7 +16,8 @@ calculateExpectancy() {
 }
 
 calculateYearsLeft() {
-
+  let planetExpectancy = ((this.userLifeExpectancy - this.userAge) / this.planetYearsInEarthYears).toFixed();
+  return parseInt(planetExpectancy);
 }
 
 }

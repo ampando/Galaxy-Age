@@ -12,7 +12,9 @@
   },
   "jest": {
     "collectCoverage": true,
-    "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}"
+    ],
     "coverageReporters": [
       "html"
     ]
