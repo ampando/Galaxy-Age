@@ -13,3 +13,15 @@ describe('SpaceAge class', () => {
     const mercuryAgeCalculator = new SpaceAge(42, 100, .24);
     expect(mercuryAgeCalculator.calculateAge()).toEqual(175);
 })
+  test('should calculate userAge on selected planet', () => {
+    const venusAgeCalculator = new SpaceAge(42, 100, .62);
+    expect(venusAgeCalculator.calculateAge()).toEqual(68);
+})
+  test('should calculate userAge on selected planet', () => {
+    const marsAgeCalculator = new SpaceAge(42, 100, 1.88);
+    expect(marsAgeCalculator.calculateAge()).toEqual(22);
+})
+  test('should calculate userAge on selected planet', () => {
+    const jupiterAgeCalculator = new SpaceAge(42, 100, 11.86);
+    expect(jupiterAgeCalculator.calculateAge()).toEqual(4);
+})
