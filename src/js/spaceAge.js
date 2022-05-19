@@ -11,7 +11,7 @@ calculateAge() {
 
 }
 
-/*calculateExpectancy() {
+calculateExpectancy() {
   return parseInt((this.userLifeExpectancy / this.planetYearsInEarthYears).toFixed());
-}*/
+}
 }

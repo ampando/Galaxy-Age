@@ -25,3 +25,8 @@ describe('SpaceAge class', () => {
     const jupiterAgeCalculator = new SpaceAge(42, 100, 11.86);
     expect(jupiterAgeCalculator.calculateAge()).toEqual(4);
 })
+
+  test('should calculate userLifeExpectancy on selected planet', () => {
+    const mercuryLifeExpectancy = new SpaceAge (42, 100, .24);
+    expect(mercuryLifeExpectancy.calculateExpectancy()).toEqual(17);
+})
