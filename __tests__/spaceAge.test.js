@@ -1,4 +1,4 @@
-import Rectangle from '../src/js/rectangle.js';
+//import spaceAge from '../src/js/spaceAge.js';
 
 describe('Rectangle', () => {
 
