@@ -14,4 +14,9 @@ calculateAge() {
 calculateExpectancy() {
   return parseInt((this.userLifeExpectancy / this.planetYearsInEarthYears).toFixed());
 }
+
+calculateYearsLeft() {
+
+}
+
 }
