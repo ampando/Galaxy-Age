@@ -1,20 +1,24 @@
 {
-  "name": "Space Age", 
+  "name": "space-age",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application to determine user age in a selected planet years.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
-    "test": "jest --coverage"
+    "test": "jest --colors --coverage",
+    "test-coverage": "jest --coverage"
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["html"]
+    "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+    "coverageReporters": [
+      "html"
+    ]
   },
   "keywords": [],
-  "author": "",
+  "author": "Adrienne Matosich",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
