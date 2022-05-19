@@ -70,5 +70,5 @@ describe('SpaceAge class', () => {
 
   test('should calculate how many years an older user may have lived past life expectancy', () => {
     const mercuryPastExpectancy = new SpaceAge (101, 100, .24)
-    expect(mercuryPastExpectancy.calculateYearsOver()).toEqual(20)
+    expect(mercuryPastExpectancy.calculateYearsOver()).toEqual(4)
   })
