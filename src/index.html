@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Space Age</title>
+  <title>Space Age</title>
   </head>
 <body>
   <div class="container">
+    <form id ="form-one">
+      <div class="form-group">
     <div class="page-header">
       <h1>What's Your Solar Age?</h1>
       <p>Calculate Your Age and Life Expectancy On Each Planet!</p>
-    </div>
+      
+      <label for="select-age"><h2>Select your age:</h2></label>
+      <select name="age" id="select-age">
+        <option value="">--Please choose an option--</option>
+        <option value="42">42</option>
+        <option value="42">42</option>
+        <option value="42">42</option>
+      </select>
+    
+      <label for="select-planet"><h2>Select your preferred planet:</h2></label>
+      <select name="planet" id="select-planet">
+          <option value="">--Please choose an option--</option>
+          <option value="mercury">Mercury</option>
+          <option value="venus">Venus</option>
+          <option value="mars">Mars</option>
+          <option value="jupiter">Jupiter</option>
+      </select>
+      </div>
+      
+      <button type="submit" class="btn btn-dark" id="order">Submit</button>   
+      <h4>Your current age and years left to explore:</h4>
+    </form>  
+  </div>
   
 </body>
 </html>

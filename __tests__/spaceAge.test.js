@@ -59,8 +59,8 @@ describe('SpaceAge class', () => {
   }) 
 
   test('should calculate how many years of life left on a selected planet', () => {
-    const marsYearsLeft = new SpaceAge (42, 100, .24);
-    expect(marsYearsLeft.calculateYearsLeft()).toEqual(242)
+    const marsYearsLeft = new SpaceAge (42, 100, 1.88);
+    expect(marsYearsLeft.calculateYearsLeft()).toEqual(31)
   }) 
 
   test('should calculate how many years of life left on a selected planet', () => {
