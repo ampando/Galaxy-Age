@@ -41,6 +41,7 @@
 * Run npm install to install dependencies
 * Run npm run build to build environment
 * Run npm run start to open a web server to view the site
+* Run npm run test to test the application with Jest. 
 * Also available on GitHub pages here: https://ampando.github.io/Galaxy-Age/
 
 ## Known Bugs
